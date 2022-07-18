@@ -1,16 +1,16 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "concreteslabmod",
+  "name": "Concrete Slab Mod",
+  "description": "This mod creates more building blocks from the Chisel Mod .",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Zhe_Dude"],
+  "credits": "The Forge and FML guys, for making forge and FML",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": ["@Chisel"]
 }
 ]
