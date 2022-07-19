@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 public class ModItems {
     public static Item concreteSlab;
     public static void preInit(){
-        concreteSlab = new Item().setUnlocalizedName("concrete_slab").setCreativeTab(ConcreteSlabMod.creativeTab);
+        concreteSlab = new ItemConcreteSlab("concrete_slab");
         registerItems();
     }
     public static void registerItems(){

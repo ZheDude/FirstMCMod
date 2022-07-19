@@ -8,9 +8,6 @@ public class CreativeTab extends CreativeTabs {
     public CreativeTab(int index, String label) {
         super(index, label);
     }
-
-
-
     @Override
     public Item getTabIconItem() {
         return Items.QUARTZ;
